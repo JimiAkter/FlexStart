@@ -1,0 +1,128 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/* common  style */
+section {
+    padding: 41px 0;
+}
+
+
+/* header start */
+.h_text h1 {
+    font-size: 29px;
+}
+.h_text h2 {
+    font-size: 19px;
+}
+.h_text button, .a_text button {
+    padding: 13px 13px;
+}
+.h_text button span, .a_text button span {
+    font-size: 13px;
+}
+/* header end */
+/* about start */
+
+.a_text h2{
+    font-size: 20px;
+}
+.a_text p {
+    margin: 15px 0px 7px 0;
+    font-size: 14px;
+}
+.a_image img {
+    margin-top: 50px;
+}
+/* about start */
+/* count end */
+.count-box {
+    box-shadow: -6px 0 30px rgb(1 41 112 / 11%);
+}
+.section-header p {
+    font-size: 25px;
+}
+
+section#counts {
+    padding: 0;
+}
+.count-box i {
+    margin-left: 51px;
+}
+/* count end */
+/* feture start */
+.feture-tabs h3 {
+    color: #012970;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: -60px;
+}
+.feture-tabs .nav-link {
+    font-size: 12px;
+}
+
+.tab-pane p {
+    font-size: 15px;
+}
+.feature-icons h3 {
+    font-size: 26px;
+}
+.feature-icons {
+    margin-top: 30px;
+}
+/* feture end */
+
+/* service start */
+.s-box {
+    padding: 20px 30px;}
+/* service end */
+/* portfolio start */
+.portfolio #portfolio-flters li {
+    padding: 7px 20px 7px 20px;
+    font-size: 13px;
+    margin: 0 -11px 10px 4px;}
+/* portfolio end */
+
+
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/* header start */
+.h_text h1 {
+    font-size: 34px;
+}
+.h_text h2 {
+    font-size: 23px;
+}
+/* header end */
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/* header start */
+.h_text h1 {
+    font-size: 33px;
+}
+.h_text h2 {
+    font-size: 24px;
+}
+/* header end */
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/* header start */
+.h_text h1 {
+    margin: 0;
+    font-size: 44px;
+}
+/* header end */
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    /* header start */
+    .h_text h1 {
+        font-size: 48px;
+    }
+/* header end */
+ }
